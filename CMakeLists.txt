@@ -53,7 +53,7 @@ ENDIF()
 #-******************************************************************************
 
 OPTION(USE_ARNOLD "Include Arnold stuff" OFF)
-OPTION(USE_BINARIES "Include binaries" ON)
+OPTION(USE_BINARIES "Include binaries" OFF)
 OPTION(USE_EXAMPLES "Include examples" OFF)
 OPTION(USE_HDF5 "Include HDF5 stuff" OFF)
 OPTION(USE_MAYA "Include Maya stuff" OFF)
