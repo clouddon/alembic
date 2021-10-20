@@ -109,13 +109,13 @@ WRITE_BASIC_PACKAGE_VERSION_FILE(
     AnyNewerVersion
     )
 
-EXPORT(TARGETS
-    Alembic
-    FILE
-    "${CMAKE_CURRENT_BINARY_DIR}/${alembic_targets_file}"
-    NAMESPACE
-    Alembic::
-    )
+# EXPORT(TARGETS
+#     Alembic
+#     FILE
+#     "${CMAKE_CURRENT_BINARY_DIR}/${alembic_targets_file}"
+#     NAMESPACE
+#     Alembic::
+#     )
 
 INSTALL(FILES
     "${CMAKE_CURRENT_BINARY_DIR}/AlembicConfig.cmake"
