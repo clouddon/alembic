@@ -78,6 +78,8 @@ TARGET_LINK_LIBRARIES(Alembic
     ${ZLIB_LIBRARY}
   )
 
+SET_TARGET_PROPERTIES(Alembic PROPERTIES FOLDER "ThirdParty")
+
 SET( ALEMBIC_LIB_INSTALL_DIR lib CACHE PATH "Where to install the Alembic libs")
 INSTALL(TARGETS Alembic
         EXPORT AlembicTargets
